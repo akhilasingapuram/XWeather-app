@@ -49,7 +49,7 @@ const Weather = () => {
       </div>
       {loading && <p>Loading data...</p>}
       {data && (
-        <div className="card-container">
+        <div className="weather-cards">
           <Card label="Temperature" value={data.temperature} />
           <Card label="Humidity" value={data.humidity} />
           <Card label="Condition" value={data.condition} />
